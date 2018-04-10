@@ -1,4 +1,4 @@
-# Assignment1
+# Week7
 Week 7 Word Press Exploits
 
 Exploit 1: Cross-Site Scripting (XSS)
