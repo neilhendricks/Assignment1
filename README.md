@@ -28,7 +28,7 @@ In creating a post, upload the following script:
 [embed src='https://youtube.com/embed/123\x3csvg onload=alert(1)\x3e'][/embed]
 After clicking update, click view post- you will get the XSS alert
 
-![screenshot1](https://github.com/neilhendricks/week7/blob/master/2ndExploityoutubeurl.png?raw=true)
+
 
 Exploit 3: Unauthenticated XSS in comment
 
